@@ -6,7 +6,7 @@
 #include "StaticLibTest.h"
 
 // TODO: これは、ライブラリ関数の例です
-void fnStaticLibTest(float x, float y)
+float fnStaticLibTest(float x, float y)
 {
-
+    return x * y;
 }
